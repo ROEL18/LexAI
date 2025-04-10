@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "my-app-name"
+name = "your-app"
 version = "0.1.0"
-description = "A sample app"
+description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-flask = "^2.3.0"
-firebase-admin = "*"
+flask = "^2.3.3"
+firebase-admin = "^6.7.0"
 
 [build-system]
 requires = ["poetry-core"]
